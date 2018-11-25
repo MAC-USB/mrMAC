@@ -67,7 +67,7 @@ os.system('touch /home/elliot/Arcade/E_Corp/_DAE/##PONME_TODO')
 os.system('touch /home/elliot/Arcade/E_Corp/_DAE/_KUL/##ESO_PA_LANTE')
 
 os.system('touch /home/elliot/Arcade/E_Corp/elpscrk')
-os.system('touch /home/elliot/Arcade/E_Corp/3xploit')
+os.system('touch /home/elliot/Arcade/E_Corp/DDoS_Attack')
 os.system('touch /home/elliot/Arcade/E_Corp/estogeneraunnumeroprimo')
 lineas = respaldo
 
@@ -84,7 +84,7 @@ os.system('echo ":5432accb elpscrk significa elliotspasswordcracker" >> /home/el
 for i in range(207):
 	str0 = "".join(choice(lowercase) for j in range(30))
 	os.system('echo ":'+str(random_N_digitos(4))+str0+'" >>  /home/elliot/Arcade/E_Corp/elpscrk')
-os.system('echo ":1322eccb acabasdeconseguirlaclave_DDoS" >>  /home/elliot/Arcade/E_Corp/elpscrk')
+os.system('echo ":1322eccb acabasdeconseguirlaclave_hellofriend" >>  /home/elliot/Arcade/E_Corp/elpscrk')
 for i in range(207):
 	str0 = "".join(choice(lowercase) for j in range(34))
 	os.system('echo ":'+str(random_N_digitos(4))+str0+'" >>  /home/elliot/Arcade/E_Corp/elpscrk')
@@ -102,30 +102,30 @@ print " --SE CARGO LA HABITACION E_CORP"
 DirBasura("/home/elliot/Arcade/E_Corp" , 502)
 #Fin de la habitacion E_CORP
 
-""" ######################## Fin de la HABITACION E_CORP ########################################################################
+######################## Fin de la HABITACION E_CORP ########################################################################
 
 ##############################
-# CASTILLO NUMERO 2 (KINGBOO)#
+# HABITACION NUMERO 2 ARCADE#
 ##############################
 
-os.system('rm -rf /home/MarioCastillo_de_KingBoo/block')
-os.system('touch /home/Mario/Castillo_de_KingBoo/block')
+os.system('rm -rf /home/elliot/Arcade/FBI/logic-b0mb')
+os.system('touch /home/elliot/Arcade/FBI/logic-b0mb')
 for i in range(99):
 	str0 = "".join(choice(lowercase) for j in range(6))
-	os.system('echo '+str0+' >>  /home/Mario/Castillo_de_KingBoo/block')
-os.system('echo mushroom >>  /home/Mario/Castillo_de_KingBoo/block')     #Essta es la linea del medio
+	os.system('echo '+str0+' >>  /home/elliot/Arcade/FBI/logic-b0mb')
+os.system('echo krista >>  /home/elliot/Arcade/FBI/logic-b0mb')     #Essta es la linea del medio
 for i in range(100):
 	str0 = "".join(choice(lowercase) for j in range(6))
-	os.system('echo '+str0+' >>  /home/Mario/Castillo_de_KingBoo/block')
+	os.system('echo '+str0+' >>  /home/elliot/Arcade/FBI/logic-b0mb')
 
-os.system('rm -rf Taquirule/templo_E/coin') 
-os.system('cp /home/Mario/Castillo_de_KingBoo/block /home/Mario/Castillo_de_KingBoo/coin')
-os.system('chmod 000 /home/Mario/Castillo_de_KingBoo/coin ; chown Mario:Mario /home/Mario/Castillo_de_KingBoo/coin') 
+os.system('rm -rf Taquirule/templo_E/pyth0n') 
+os.system('cp /home/elliot/Arcade/FBI/logic-b0mb /home/elliot/Arcade/FBI/pyth0n')
+os.system('chmod 000 /home/elliot/Arcade/FBI/pyth0n ; chown elliot:elliot /home/elliot/Arcade/FBI/pyth0n') 
 
 
-#Cosas de la pregunta 7
-masks=['oldtoad','castle','bill','balas','DK','wario','nintendo', 'sunshine',\
-           'smash','marioGolf','yoshi', 'brawl']
+#Cosas de la pregunta 17
+masks=['elliot','habitacion','hackeo','arcade','juego','juanteamo','mrrobot', 'ecorp',\
+           'fbi','fsociety','servidores', 'lenguajes']
 
 words_from_masks = []
 for i in range(1,300):
@@ -140,61 +140,61 @@ respaldo_wfms = words_from_masks
 #Archivo en el que deberan mostrar el contenido de los archivos que esten
 #contenidos en el 
 
-os.system('rm -rf /home/Mario/Castillo_de_KingBoo/smash')
-os.system('touch /home/Mario/Castillo_de_KingBoo/smash')
+os.system('rm -rf /home/elliot/Arcade/FBI/runtime-error')
+os.system('touch /home/elliot/Arcade/FBI/runtime-error')
 
 for w in words_from_masks:
-	os.system('echo '+ w + ' >> /home/Mario/Castillo_de_KingBoo/smash')	
-os.system('echo great_star >> /home/Mario/Castillo_de_KingBoo/smash')
+	os.system('echo '+ w + ' >> /home/elliot/Arcade/FBI/runtime-error')	
+os.system('echo dont-delete-me.ko >> /home/elliot/Arcade/FBI/runtime-error')
 for i in range(800):
-	os.system('echo "'+(((lineas.pop()).lower()).replace("'",":")).strip("\n")+'" >> /home/Mario/Castillo_de_KingBoo/smash')
-os.system('touch /home/Mario/Castillo_de_KingBoo/great_star')
-os.system('echo "superstar" >> /home/Mario/Castillo_de_KingBoo/great_star')
+	os.system('echo "'+(((lineas.pop()).lower()).replace("'",":")).strip("\n")+'" >> /home/elliot/Arcade/FBI/runtime-error')
+os.system('touch /home/elliot/Arcade/FBI/dont-delete-me.ko')
+os.system('echo k3rnelp4nic >> /home/elliot/Arcade/FBI/dont-delete-me.ko')
 
 
 #_Pipe pregunta (12)
 
-os.system('rm -rf /home/Mario/Castillo_de_KingBoo/_Pipe')
-os.system('mkdir -p /home/Mario/Castillo_de_KingBoo/_Pipe')
-babymario='toad'
+os.system('rm -rf /home/elliot/Arcade/FBI/_Pipe')
+os.system('mkdir -p /home/elliot/Arcade/FBI/_Pipe')
+babymario='bomb'
 babymario_l = map(''.join, itertools.product(*zip(babymario.upper(), babymario.lower())))
-dir_babymario = ['_THE','_LEGEND','_OF','_SUPER','_MAC','_BROS']
+dir_babymario = ['_THE','_LEGEND','_OF','_MR','_MAC','_ROBOT']
 
 for z in babymario_l:  #Se mina todo el directorio _TINGLES (nivel 1)
-	os.system('touch /home/Mario/Castillo_de_KingBoo/_Pipe/'+z) 
+	os.system('touch /home/elliot/Arcade/FBI/_Pipe/'+ z) 
 for z in dir_babymario:
-	os.system('mkdir -p /home/Mario/Castillo_de_KingBoo/_Pipe/'+z)	
+	os.system('mkdir -p /home/elliot/Arcade/FBI/_Pipe/'+z)
 	for a in babymario_l:  #Se minan todos los directorios del segundo nivel
-		os.system('touch /home/Mario/Castillo_de_KingBoo/_Pipe/'+z+'/'+a) 
+		os.system('touch /home/elliot/Arcade/FBI/_Pipe/'+z+'/'+a)
 	for x in dir_babymario:
-		os.system('mkdir -p /home/Mario/Castillo_de_KingBoo/_Pipe/'+z+'/'+x)	
+		os.system('mkdir -p /home/elliot/Arcade/FBI/_Pipe/'+z+'/'+x)	
 		for y in dir_babymario:
-			os.system('mkdir -p /home/Mario/Castillo_de_KingBoo/_Pipe/'+z+'/'+x+'/'+y)	
+			os.system('mkdir -p /home/elliot/Arcade/FBI/_Pipe/'+z+'/'+x+'/'+y)
 			for a in babymario_l:  #Se minan todos los directorios del cuarto nivel
-				os.system('touch /home/Mario/Castillo_de_KingBoo/_Pipe/'+z+'/'+x+'/'+y+'/'+a)
+				os.system('touch /home/elliot/Arcade/FBI/_Pipe/'+z+'/'+x+'/'+y+'/'+a)
 
-os.system('touch /home/Mario/Castillo_de_KingBoo/_Pipe/_THE/_LEGEND/Toad')
-os.system('touch /home/Mario/Castillo_de_KingBoo/_Pipe/_OF/_THE/tOAd')
-os.system('touch /home/Mario/Castillo_de_KingBoo/_Pipe/_SUPER/_MAC/toaD')
-os.system('touch /home/Mario/Castillo_de_KingBoo/_Pipe/_BROS/_BROS/ToaD')
+os.system('touch /home/elliot/Arcade/FBI/_Pipe/_THE/_LEGEND/b0mb')
+os.system('touch /home/elliot/Arcade/FBI/_Pipe/_OF/_THE/bomB')
+os.system('touch /home/elliot/Arcade/FBI/_Pipe/_MR/_MAC/BomB')
+os.system('touch /home/elliot/Arcade/FBI/_Pipe/_ROBOT/_ROBOT/boMb')
 
 #carpetas que comienzen con - para la pregunta (11)
 
-os.system('mkdir -p  /home/Mario/Castillo_de_KingBoo/_GHOST')
-os.system('touch /home/Mario/Castillo_de_KingBoo/_GHOST/-luigi')
-os.system('touch /home/Mario/Castillo_de_KingBoo/-luigi')
-os.system('touch /home/Mario/Castillo_de_KingBoo/-eas')
-os.system('touch /home/Mario/Castillo_de_KingBoo/-is')
-os.system('touch /home/Mario/Castillo_de_KingBoo/-the')
-os.system('mkdir -p /home/Mario/Castillo_de_KingBoo/-HERO')
-os.system('touch /home/Mario/Castillo_de_KingBoo/-HERO/-of')
-os.system('touch /home/Mario/Castillo_de_KingBoo/-HERO/-this')
-os.system('touch /home/Mario/Castillo_de_KingBoo/-HERO/-world')
+os.system('mkdir -p  /home/elliot/Arcade/FBI/_ANONYMOUS')
+os.system('touch /home/elliot/Arcade/FBI/_ANONYMOUS/-elliot')
+os.system('touch /home/elliot/Arcade/FBI/-elliot')
+os.system('touch /home/elliot/Arcade/FBI/-eas')
+os.system('touch /home/elliot/Arcade/FBI/-is')
+os.system('touch /home/elliot/Arcade/FBI/-the')
+os.system('mkdir -p /home/elliot/Arcade/FBI/-HERO')
+os.system('touch /home/elliot/Arcade/FBI/-HERO/-of')
+os.system('touch /home/elliot/Arcade/FBI/-HERO/-this')
+os.system('touch /home/elliot/Arcade/FBI/-HERO/-room')
 
-DirBasura('/home/Mario/Castillo_de_KingBoo' , 800)
-print " --SE CARGO EL CASTILLO DE KINGBOO"
+DirBasura('/home/elliot/Arcade/FBI' , 800)
+print "--SE CARGO LA HABITACION FBI"
 
-######################## Fin del CASTILLO DE KINGBOO ########################################################################
+""" ######################## Fin del CASTILLO DE KINGBOO ########################################################################
 
 #################################
 # CASTILLO NUMERO 3 (BOWSER JR.)#
@@ -281,5 +281,5 @@ for w in aux:
 
 print '---SE CARGO EL CASTILLO DE (PIRANA_PLANT)'
 DirBasura('/home/Mario/Castillo_de_Pirana_plant/' , 800)
-#Fin del Castillo_de_Pirana_plant
-######################## Fin del CASTILLO DE PIRANA_PLANT ################################################################### """
+#Fin del Castillo_de_Pirana_plant """
+######################## Fin del CASTILLO DE PIRANA_PLANT ###################################################################
