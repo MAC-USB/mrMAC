@@ -194,92 +194,86 @@ os.system('touch /home/elliot/Arcade/FBI/-HERO/-room')
 DirBasura('/home/elliot/Arcade/FBI' , 800)
 print "--SE CARGO LA HABITACION FBI"
 
-""" ######################## Fin del CASTILLO DE KINGBOO ########################################################################
+######################## Fin del CASTILLO DE FBI ########################################################################
 
 #################################
-# CASTILLO NUMERO 3 (BOWSER JR.)#
+# HABITACION NUMERO 3 (DARK_ARMY)#
 #################################
 
-# Pregunta N 14
+# Pregunta N 16
 # Garantizo que este la carpeta y le agrego lo que necesito
-os.system('mkdir /home/Mario/Castillo_de_Bowser_jr/_under')
-os.system('touch /home/Mario/Castillo_de_Bowser_jr/_under/yoshi')
+os.system('mkdir /home/elliot/Arcade/Dark_Army/_stage3; chown elliot:elliot /home/elliot/Arcade/Dark_Army/_stage3')
+os.system('touch /home/elliot/Arcade/Dark_Army/_stage3/cisco')
+os.system('touch /home/elliot/Arcade/Dark_Army/_stage3/seguro')
+os.system('touch /home/elliot/Arcade/Dark_Army/_stage3/deseas')
+os.system('touch /home/elliot/Arcade/Dark_Army/_stage3/delete')
+os.system('touch /home/elliot/Arcade/Dark_Army/_stage3/elliot')
 
-# Pregunta N 17
-# Genera un archivo cOsA con permisos 700 y luego una carpera _kart con permisos 777
-os.system('touch /home/Mario/Castillo_de_Bowser_jr/cOsA && chmod 700 /home/Mario/Castillo_de_Bowser_jr/cOsA')
-os.system('mkdir /home/Mario/Castillo_de_Bowser_jr/_kart')
+# Pregunta N 18
+# Genera un archivo j0anna con permisos 700 y luego una carpera _zer0es con permisos 777
+os.system('touch /home/elliot/Arcade/Dark_Army/j0anna && chmod 700 /home/elliot/Arcade/Dark_Army/j0anna')
+os.system('mkdir /home/elliot/Arcade/Dark_Army/_zer0es && chmod 777 /home/elliot/Arcade/Dark_Army/_zer0es')
 
 aux = respaldo_wfms
 aux1 = respaldo_wfms
 aux2 = respaldo_wfms
 
 for i in range(50):
-    os.system('touch /home/Mario/Castillo_de_Bowser_jr/_kart/' + aux.pop())
+    os.system('touch /home/elliot/Arcade/Dark_Army/_zer0es/' + aux.pop())
 
 
 for i in range (10):
-    os.system('touch /home/Mario/Castillo_de_Bowser_jr/_under/' + aux1.pop()[:4])
-    os.system('touch /home/Mario/Castillo_de_Bowser_jr/_under/' + aux2.pop()[:6])
+    os.system('touch /home/elliot/Arcade/Dark_Army/_zer0es/' + aux1.pop()[:4])
+    os.system('touch /home/elliot/Arcade/Dark_Army/_zer0es/' + aux2.pop()[:6])
 
-print "---SE CARGO EL CASTILLO DE (BOWSER JR.)"
-DirBasura('/home/Mario/Castillo_de_Bowser_jr' , 800)
-
-######################## Fin del CASTILLO DE BOWSER JR. ########################################################################
-
-
-#################################
-# CASTILLO NUMERO 4 (PIRANA_PLANT)#
-#################################
-
-os.system('rm -rf /home/Mario/Castillo_de_Pirana_plant/_Galaxy')
-os.system('rm -rf /home/Mario/Castillo_de_Pirana_plant/_World')
+os.system('rm -rf /home/elliot/Arcade/Dark_Army/_v1ew')
+os.system('rm -rf /home/elliot/Arcade/Dark_Army/_s0urce')
 lineas = respaldo
-os.system('mkdir /home/Mario/Castillo_de_Pirana_plant/_Galaxy')
-os.system('mkdir /home/Mario/Castillo_de_Pirana_plant/_World')
+os.system('mkdir /home/elliot/Arcade/Dark_Army/_v1ew')
+os.system('mkdir /home/elliot/Arcade/Dark_Army/_s0urce; chown elliot:elliot /home/elliot/Arcade/Dark_Army/_s0urce')
 for i in range(800):
-	os.system('touch /home/Mario/Castillo_de_Pirana_plant/_Galaxy/'+(((lineas.pop()).lower()).replace("'",":")).strip("\n"))
+	os.system('touch /home/elliot/Arcade/Dark_Army/_v1ew/'+(((lineas.pop()).lower()).replace("'",":")).strip("\n"))
 for i in range(600):
-	os.system('touch /home/Mario/Castillo_de_Pirana_plant/_World/'+(((lineas.pop()).lower()).replace("'",":")).strip("\n"))
+	os.system('touch /home/elliot/Arcade/Dark_Army/_s0urce/'+(((lineas.pop()).lower()).replace("'",":")).strip("\n"))
 
-os.system('cp -r /home/Mario/Castillo_de_Pirana_plant/_Galaxy/ /home/Mario/Castillo_de_Pirana_plant/_Galaxy2')
-os.system('cp -r /home/Mario/Castillo_de_Pirana_plant/_World/ /home/Mario/Castillo_de_Pirana_plant/_World2')
+os.system('cp -r /home/elliot/Arcade/Dark_Army/_v1ew/ /home/elliot/Arcade/Dark_Army/_v1ew2')
+os.system('cp -r /home/elliot/Arcade/Dark_Army/_s0urce/ /home/elliot/Arcade/Dark_Army/_s0urce2')
 	
 
 #archivo random que tendra 30 lineas
-os.system('rm -rf /home/Mario/Castillo_de_Pirana_plant/bigmario')
-os.system('touch /home/Mario/Castillo_de_Pirana_plant/bigmario')
+os.system('rm -rf /home/elliot/Arcade/Dark_Army/legacy')
+os.system('touch /home/elliot/Arcade/Dark_Army/legacy')
 for i in range(30):
-    os.system("echo Super EAS Odyssey >> /home/Mario/Castillo_de_Pirana_plant/bigmario")
+    os.system("echo Super EAS legacy >> /home/elliot/Arcade/Dark_Army/legacy")
 
 #Colocandole 30K a un archivo
-os.system('mkdir -p /home/Mario/Castillo_de_Pirana_plant/BOSS/BOWSER/IS/IN/HIS/')
-os.system('touch /home/Mario/Castillo_de_Pirana_plant/BOSS/BOWSER/IS/IN/HIS/riegame')
+os.system('mkdir -p /home/elliot/Arcade/Dark_Army/BOSS/MRROBOT/IS/IN/THIS/')
+os.system('touch /home/elliot/Arcade/Dark_Army/BOSS/MRROBOT/IS/IN/THIS/m3tadata')
 for i in range(9999):
-    os.system("echo aa >> /home/Mario/Castillo_de_Pirana_plant/BOSS/BOWSER/IS/IN/HIS/riegame")
-os.system('echo "CREETE QUE ERES SUPER EAS... DI EN VOZ ALTA: SOY EAS" >> /home/Mario/Castillo_de_Pirana_plant/BOSS/BOWSER/IS/IN/HIS/riegame')
+    os.system("echo aa >> /home/elliot/Arcade/Dark_Army/BOSS/MRROBOT/IS/IN/THIS/m3tadata")
+os.system('echo "CREETE QUE ERES SUPER EAS... DI EN VOZ ALTA: SOY EAS" >> /home/elliot/Arcade/Dark_Army/BOSS/MRROBOT/IS/IN/THIS/m3tadata')
 
 
-os.system('rm -rf /home/Mario/Castillo_de_Pirana_plant/drmario')
-os.system('rm -rf /home/Mario/Castillo_de_Pirana_plant/mariotetris')
+os.system('rm -rf /home/elliot/Arcade/Dark_Army/frederic')
+os.system('rm -rf /home/elliot/Arcade/Dark_Army/tanya')
 
-os.system('touch /home/Mario/Castillo_de_Pirana_plant/drmario')
-os.system('touch /home/Mario/Castillo_de_Pirana_plant/mariotetris')
+os.system('touch /home/elliot/Arcade/Dark_Army/frederic')
+os.system('touch /home/elliot/Arcade/Dark_Army/tanya')
 
 words_from_masks = respaldo_wfms
 for w in words_from_masks:
-    	os.system('echo '+ w + '>> /home/Mario/Castillo_de_Pirana_plant/drmario')
+    	os.system('echo '+ w + '>> /home/elliot/Arcade/Dark_Army/frederic')
 
-palabra_distinta= 'b0ws3r'
+palabra_distinta= 'wh1ter0se'
 aux = words_from_masks + [palabra_distinta]
 
 random.shuffle(aux)        
 for w in aux:
-    	os.system('echo '+ w + '>> /home/Mario/Castillo_de_Pirana_plant/mariotetris')
+    	os.system('echo '+ w + '>> /home/elliot/Arcade/Dark_Army/tanya')
 
 
 
-print '---SE CARGO EL CASTILLO DE (PIRANA_PLANT)'
-DirBasura('/home/Mario/Castillo_de_Pirana_plant/' , 800)
-#Fin del Castillo_de_Pirana_plant """
-######################## Fin del CASTILLO DE PIRANA_PLANT ###################################################################
+print '---SE CARGO LA HABITACION DARK_ARMY'
+DirBasura('/home/elliot/Arcade/Dark_Army/' , 800)
+#Fin DE LA HABITACION DARK_ARMY
+######################## FIN DE LA HABITACION DARK_ARMY ###################################################################
