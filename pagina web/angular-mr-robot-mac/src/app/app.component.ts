@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-mr-robot-mac';
+  title = 'Tarea 3 MR-ROBOT-MAC';
 }
