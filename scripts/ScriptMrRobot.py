@@ -98,7 +98,7 @@ for i in range(300):
 for i in range(50):
 	os.system('echo "'+(((lineas.pop()).lower()).replace("'",":")).strip("\n")+'" >>  /home/elliot/Arcade/E_Corp/elpscrk')
 
-print " --SE CARGO LA HABITACION E_CORP"
+print "-- SE CARGO LA HABITACION E_CORP"
 DirBasura("/home/elliot/Arcade/E_Corp" , 502)
 #Fin de la habitacion E_CORP
 
@@ -192,7 +192,7 @@ os.system('touch /home/elliot/Arcade/FBI/-HERO/-this')
 os.system('touch /home/elliot/Arcade/FBI/-HERO/-room')
 
 DirBasura('/home/elliot/Arcade/FBI' , 800)
-print "--SE CARGO LA HABITACION FBI"
+print "-- SE CARGO LA HABITACION FBI"
 
 ######################## Fin del CASTILLO DE FBI ########################################################################
 
@@ -273,7 +273,7 @@ for w in aux:
 
 
 
-print '---SE CARGO LA HABITACION DARK_ARMY'
+print '-- SE CARGO LA HABITACION DARK_ARMY'
 DirBasura('/home/elliot/Arcade/Dark_Army/' , 800)
 #Fin DE LA HABITACION DARK_ARMY
 ######################## FIN DE LA HABITACION DARK_ARMY ###################################################################

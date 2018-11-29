@@ -90,3 +90,10 @@ CrearArchivo('/home/elliot/Habitacion/pentest', 404) # Lineas de pentest 404
 
 
 print 'SE CREO LA HABITACION'
+
+os.system('cp ./answers_checker.sh /opt/answers_checker.sh')
+os.system('touch /home/elliot/.bash_history')
+os.system("echo \"PROMPT_COMMAND='history -w && /opt/answers_checker.sh'\" >> /home/elliot/.bashrc")
+# Guarda el archivo de chequeo de respuestas en un directorio accesible
+# Ejecuta el script con cada comando.
+# os.system('echo PROMPT_COMMAND="/opt/answers_checker.sh" >> /home/elliot/.bashrc')
