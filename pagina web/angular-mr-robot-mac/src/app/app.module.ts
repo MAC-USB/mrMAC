@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ScoreboardComponent } from './scoreboard/scoreboard.component';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { ScoreboardComponent } from './scoreboard/scoreboard.component';
     ScoreboardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

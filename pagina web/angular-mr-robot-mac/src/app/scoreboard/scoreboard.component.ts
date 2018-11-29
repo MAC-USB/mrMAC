@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-scoreboard',
   templateUrl: './scoreboard.component.html',
