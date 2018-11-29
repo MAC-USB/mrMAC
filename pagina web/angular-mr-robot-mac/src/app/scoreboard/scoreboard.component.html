@@ -30,9 +30,9 @@
         <th style="width:30%">Equipo</th>
         <th style="width: 70%">% Completado</th>
       </tr>
-      <tr>
-        <td>Equipo 1</td>
-        <td><mat-progress-bar mode="determinate" value="50"></mat-progress-bar></td>
+      <tr *ngFor="let equipo of equipos">
+        <td>{{equipo.nombre}}</td>
+        <td><mat-progress-bar mode="determinate" value="{{equipo.porcentaje}}"></mat-progress-bar></td>
       </tr>
     </table>
     <br>
