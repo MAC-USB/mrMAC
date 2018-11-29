@@ -10,7 +10,7 @@ export class ScoreboardService {
     constructor(private http: HttpClient) {}
 
     public getEquipo(): Observable<any> {
-        return this.http.get(`http://localhost:3000/equipos/`)
+        return this.http.get(`http://localhost:3000/equipos/?_sort=porcentaje&_order=DESC`)
     }
 
 }

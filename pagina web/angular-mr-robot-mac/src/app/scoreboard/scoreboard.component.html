@@ -25,6 +25,16 @@
 
 <div class="header text-center center-block">
   <p id="welcome">TABLA DE PUNTUACIÓN</p>
+  <div class="text-center">
+    <p id="text3" *ngIf="(ganadores.length) == 1"><span>fsociety</span>: El ganador hasta ahora es <strong>{{equipos[0].nombre}}</strong></p>
+    <div id="text3" *ngIf="(ganadores.length) > 1">
+      <span>fsociety</span>: Parece que tenemos un empate.<br>
+      <span>fsociety</span>: Los ganadores son:<br>
+      <div *ngFor="let ganador of ganadores">
+        <span>fsociety</span>: <strong>{{ganador.nombre}}</strong>
+      </div>
+    </div>
+  </div>
   <table align="center" style="width:80%;">
       <tr>
         <th style="width:30%">Equipo</th>

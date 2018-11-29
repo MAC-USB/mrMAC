@@ -10,7 +10,8 @@ import { interval } from 'rxjs';
 export class ScoreboardComponent implements OnInit {
 
   equipos = [];
-  time = interval(60000) // Tiempo de actualizacion 1 minuto
+  time = interval(1000); // Tiempo de actualizacion 1 minuto
+  ganadores = []
 
   constructor(
     private scoreboardservice: ScoreboardService
@@ -28,9 +29,22 @@ export class ScoreboardComponent implements OnInit {
   EquiposScore(){
     this.scoreboardservice.getEquipo().subscribe(data => {
       this.equipos = data
+      this.KnowWinners()
     }, error => {
       
     });
+  }
+
+  KnowWinners(){
+    let porcentaje_ganador = this.equipos[0].porcentaje;
+    this.ganadores = []
+    for ( var index = 0; index < 20; index++){
+      if ( this.equipos[index].porcentaje == porcentaje_ganador ){
+        this.ganadores.push(this.equipos[index])
+      }else{
+        break;
+      }
+    }
   }
 
 }
