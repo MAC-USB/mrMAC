@@ -1,30 +1,30 @@
 <div class="header text-center center-block">
-  <p id="welcome">Hola Prenuevo, bienvenido a bordo.<br>Yo soy mr.Robot</p>
+  <p id="welcome" class="titlemrrobot">MR.MAC</p>
   <img src="http://vignette3.wikia.nocookie.net/mrrobot/images/5/50/Wiki-background/revision/20150906132244">
 </div>
 <div class="intro">
   <div class="col-xs-8">
     <p id="text1">
-      <span>elliot</span>: Mi nombre es Elliot.<br>
-      <span>elliot</span>: Actualmente tengo una díficil tarea que afrontar para ser admitido en el <strong>MAC</strong>.<br>
-      <span>elliot</span>: Si logro superarla, hackeare el <strong>FBI</strong>.<br>
-      <span>elliot</span>: Quizas asi me tengan en cuenta como futuro preparador.</p>
+      <span>elliot@sala-a</span>:~ Mi nombre es Elliot.<br>
+      <span>elliot@sala-a</span>:~ Actualmente tengo una díficil tarea que afrontar para ser admitido en el <strong>MAC</strong>.<br>
+      <span>elliot@sala-a</span>:~ Si logro superarla, hackeare el <strong>FBI</strong>.<br>
+      <span>elliot@sala-a</span>:~ Quizás asi me tengan en cuenta como futuro preparador.</p>
   </div>
   <div class="col-xs-4">
     <img src="https://c2.staticflickr.com/8/7463/29625961503_eddb93c611_o.jpg" class="img-responsive">
   </div>
   <div class="work col-xs-8">
     <p id="text3">
-      <span>fsociety</span>: No eres el único Elliot.<br>
-      <span>fsociety</span>: A continuación habrá una tabla para que veas como va la competencia.<br>
-      <span>fsociety</span>: Haz tu mejor esfuerzo por completar todos los retos.<br>
-      <span>fsociety</span>: Tú admisión depende de ti, chico.<br>
+      <span>fsociety@sala-a</span>:~ No eres el único Elliot.<br>
+      <span>fsociety@sala-a</span>:~ A continuación habrá una tabla para que veas como va la competencia.<br>
+      <span>fsociety@sala-a</span>:~ Haz tu mejor esfuerzo por completar todos los retos.<br>
+      <span>fsociety@sala-a</span>:~ Tú admisión depende de ti, chico.<br>
     </p>
   </div>
 </div>
 
 <div class="header text-center center-block">
-  <p id="welcome">TABLA DE PUNTUACIÓN</p>
+  <p id="welcome" class="titlemrrobot">TABLA DE PUNTUACION</p>
   <div class="text-center">
     <p id="text3" *ngIf="(ganadores.length) == 1"><span>fsociety</span>: El ganador hasta ahora es <strong>{{equipos[0].nombre}}</strong></p>
     <div id="text3" *ngIf="(ganadores.length) > 1">
@@ -37,8 +37,8 @@
   </div>
   <table align="center" style="width:80%;">
       <tr>
-        <th style="width:30%">Equipo</th>
-        <th style="width: 70%">% Completado</th>
+        <th style="width:30%;">Equipo</th>
+        <th style="width: 70%;">% Completado</th>
       </tr>
       <tr *ngFor="let equipo of equipos">
         <td>{{equipo.nombre}}</td>

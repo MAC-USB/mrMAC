@@ -7,7 +7,7 @@ import { Title } from '@angular/platform-browser'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Tarea 3 MR-ROBOT-MAC';
+  title = 'MR.MAC';
 
   public constructor(private titleService: Title ) { 
     this.titleService.setTitle( this.title );

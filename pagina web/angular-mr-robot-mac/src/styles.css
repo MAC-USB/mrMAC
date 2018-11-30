@@ -3,3 +3,7 @@
 .bg {
     background: black;
 }
+@font-face{
+    font-family: "mrobot";
+    src: url("./assets/fonts/MRROBOT.ttf") format("truetype");
+}

@@ -20,8 +20,8 @@
   }
   
   #welcome {
-    color: white;
-    font-family: Source Code Pro;
+    color: red;
+    font-family: 'mrobot';
     font-size: 4vmax;
     margin-top: 7vmax;
   }
@@ -108,4 +108,3 @@ td, th {
 tr{
     background-color: #dddddd;
 }
-  
