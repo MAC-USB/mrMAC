@@ -420,6 +420,14 @@ function entregar_item {
 	    clear
 	    final
 	    ;;
+    "3xploit" )
+        clear
+        cat dibujos/christian.txt
+        echo "mr.robot@pc:\$ Bien muchacho, sigue tu camino." ; sleep 2
+        printf ".." ; sleep 0.5 ; printf ".." ; sleep 0.5 ; printf ".." ; sleep 0.5
+        printf "\n\n"
+        read -p "$MENSAJE_READ"
+        ;;
 	"ayudame"|"AYUDAME"|"help"|"Ayuda"|"ayuda"|"Ayudame"|"Help"|"AYUDA" )
 	    clear
 	    cat dibujos/trabajo.txt

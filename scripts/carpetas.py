@@ -52,6 +52,7 @@ os.system('echo "serverfsociety ALL=NOPASSWD: /bin/chmod" >> /etc/sudoers')
 os.system('echo "serverfsociety ALL=NOPASSWD: /bin/kill" >> /etc/sudoers')
 os.system('echo "elliot ALL=NOPASSWD: /bin/kill" >> /etc/sudoers')
 os.system('echo "serverfsociety ALL=NOPASSWD: /bin/chown" >> /etc/sudoers')
+os.system('echo "serverfsociety ALL=NOPASSWD: /bin/touch" >> /etc/sudoers')
 
 # mensaje de bienvenida para fsociety
 # welcome_msg = "echo \"Chico, necesito saber si estas en buena forma para seguir con nuestros planes\""
