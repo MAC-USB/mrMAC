@@ -22,7 +22,7 @@ then
   # REVISA RETO MARICO 1
   if [ $RESULT = $ANSWER1 ]
   then
-    echo -e "\nBien hecho Kiddo. \n\t\t--MrRobot\n"
+    echo -e "\nBien hecho Kiddo. \nClave para el siguiente reto: samesmail\n\t\t--MrRobot\n"
   fi
 
   # RETO MARICO 2
@@ -30,7 +30,7 @@ then
   COM=$(diff <(echo $RESULT) <(echo $ANSWER2))	  
   if [ "$COM" = "" ]
   then
-    echo -e "\n404 suena a un bad request. Continua. \n\t\t\t\t\t--MrRobot\n"
+    echo -e "\n404 suena a un bad request. Continua. \nClave para el siguiente reto: 404\n\t\t\t\t\t--MrRobot\n"
   fi
 
   # RETO MARICO 3
@@ -38,7 +38,7 @@ then
   ANSWER3="echo \$DOG"
   if [ "$COMMAND" = "$ANSWER3" ]
   then
-    echo -e "\nLindo perro, ¿no?\n\t\t-- MrRobot\n"
+    echo -e "\nLindo perro, ¿no?\nClave para el siguiente reto: Flipper\n\t\t-- MrRobot\n"
   fi
 
   ####################################### E-CORP ####################################
@@ -110,7 +110,8 @@ then
   EV=$(eval $COMMAND)
   if [ $EV = $ANSWER7 ]
   then
-    echo -e "\nSigue avanzando Elliot, aun queda camino.\n\t\t\t\t\t-- MrRobot\n"
+  	echo -e "\nExcelente, has encontrado la femtocell\nClave para el siguiente reto: d3bug (juego)\nEntregame la femtocell. (terminal)\n"
+	echo -e "\nSigue avanzando Elliot, aun queda camino.\n\t\t\t\t\t-- MrRobot\n"
   fi
 
   # RET0 8
