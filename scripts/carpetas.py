@@ -67,7 +67,7 @@ print 'CREANDO USUARIO elliot y serverfsociety'
 #Se crean los directorios habitaciones principales
 
 os.system('mkdir /home/elliot/Arcade/; chmod 755  /home/elliot/Arcade/')
-os.system('mkdir /home/elliot/Arcade/E_Corp; chmod 700  /home/elliot/Arcade/E_Corp')
+os.system('mkdir /home/elliot/Arcade/E_Corp; chmod 777  /home/elliot/Arcade/E_Corp')
 os.system('mkdir /home/elliot/Arcade/FBI; chmod 700  /home/elliot/Arcade/FBI')
 os.system('mkdir /home/elliot/Arcade/Dark_Army; chmod 700  /home/elliot/Arcade/Dark_Army')
 

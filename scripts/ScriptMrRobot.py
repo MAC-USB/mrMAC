@@ -61,7 +61,7 @@ def CrearArchivo(ruta, n,):
 
 os.system('find /home/elliot/Arcade/E_Corp -name _ZOR | xargs rm -rf')
 os.system('find /home/elliot/Arcade/E_Corp -name _DAE | xargs rm -rf')
-os.system('find /home/elliot/Arcade/E_Corp -name elpscrk  | xargs rm -rf')
+os.system('find /home/elliot/Arcade/E_Corp -name mmdm  | xargs rm -rf')
 
 os.system('mkdir -p /home/elliot/Arcade/E_Corp/_ZOR/_REA')
 os.system('mkdir -p /home/elliot/Arcade/E_Corp/_DAE/_KUL')
@@ -70,40 +70,45 @@ os.system('touch /home/elliot/Arcade/E_Corp/_ZOR/_REA/##ESO_PA_LANTE')
 os.system('touch /home/elliot/Arcade/E_Corp/_DAE/##PONME_TODO')
 os.system('touch /home/elliot/Arcade/E_Corp/_DAE/_KUL/##ESO_PA_LANTE')
 
-os.system('touch /home/elliot/Arcade/E_Corp/elpscrk')
+os.system('touch /home/elliot/Arcade/E_Corp/mmdm')
 os.system('touch /home/elliot/Arcade/E_Corp/DDoS_Attack')
 os.system('touch /home/elliot/Arcade/E_Corp/estogeneraunnumeroprimo')
 lineas = respaldo
 
-#Creo el contenido del archivo elpscrk para su pregunta
-# elpscrk significa Elliot's password Cracker
+#Creo el contenido del archivo mmdm para su pregunta
+# mmdm significa Maldito Manuel (<---- MD) de Mierda
 
 for i in range(50):
-	os.system('echo "'+(((lineas.pop()).lower()).replace("'",":")).strip("\n")+'" >> /home/elliot/Arcade/E_Corp/elpscrk')
+	os.system('echo "'+(((lineas.pop()).lower()).replace("'",":")).strip("\n")+'" >> /home/elliot/Arcade/E_Corp/mmdm')
 
 for i in range(207):
 	str0 = "".join(choice(lowercase) for j in range(45))
-	os.system('echo ":'+str(random_N_digitos(4))+str0+'" >> /home/elliot/Arcade/E_Corp/elpscrk')
-os.system('echo ":5432accb elpscrk significa elliotspasswordcracker" >> /home/elliot/Arcade/E_Corp/elpscrk')
+	os.system('echo ":'+str(random_N_digitos(4))+str0+'" >> /home/elliot/Arcade/E_Corp/mmdm')
+os.system('echo ":5432accb mmdm significa elliotspasswordcracker" >> /home/elliot/Arcade/E_Corp/mmdm')
 for i in range(207):
 	str0 = "".join(choice(lowercase) for j in range(30))
-	os.system('echo ":'+str(random_N_digitos(4))+str0+'" >>  /home/elliot/Arcade/E_Corp/elpscrk')
-os.system('echo ":1322eccb acabasdeconseguirlaclave_hellofriend" >>  /home/elliot/Arcade/E_Corp/elpscrk')
+	os.system('echo ":'+str(random_N_digitos(4))+str0+'" >>  /home/elliot/Arcade/E_Corp/mmdm')
+os.system('echo ":1322eccb acabasdeconseguirlaclave_hellofriend" >>  /home/elliot/Arcade/E_Corp/mmdm')
 for i in range(207):
 	str0 = "".join(choice(lowercase) for j in range(34))
-	os.system('echo ":'+str(random_N_digitos(4))+str0+'" >>  /home/elliot/Arcade/E_Corp/elpscrk')
+	os.system('echo ":'+str(random_N_digitos(4))+str0+'" >>  /home/elliot/Arcade/E_Corp/mmdm')
 for i in range(307):
 	str0 = "".join(choice(lowercase) for j in range(24))
-	os.system('echo ":'+str(random_N_digitos(4))+str0+'" >>  /home/elliot/Arcade/E_Corp/elpscrk')
-os.system('echo ":1352eccba quizastodoseaunatrampa" >>  /home/elliot/Arcade/E_Corp/elpscrk')
+	os.system('echo ":'+str(random_N_digitos(4))+str0+'" >>  /home/elliot/Arcade/E_Corp/mmdm')
+os.system('echo ":1352eccba quizastodoseaunatrampa" >>  /home/elliot/Arcade/E_Corp/mmdm')
 for i in range(300):
 	str0 = "".join(choice(lowercase) for j in range(27))
-	os.system('echo ":'+str(random_N_digitos(4))+str0+'" >>  /home/elliot/Arcade/E_Corp/elpscrk')
+	os.system('echo ":'+str(random_N_digitos(4))+str0+'" >>  /home/elliot/Arcade/E_Corp/mmdm')
 for i in range(50):
-	os.system('echo "'+(((lineas.pop()).lower()).replace("'",":")).strip("\n")+'" >>  /home/elliot/Arcade/E_Corp/elpscrk')
+	os.system('echo "'+(((lineas.pop()).lower()).replace("'",":")).strip("\n")+'" >>  /home/elliot/Arcade/E_Corp/mmdm')
 
 print "-- SE CARGO LA HABITACION E_CORP"
 DirBasura("/home/elliot/Arcade/E_Corp" , 502)
+os.system('cd /home/elliot/Arcade/E_Corp ; rm -rf ?????*')
+os.system('cd /home/elliot/Arcade/E_Corp ; rm -rf ???')
+os.system('cd /home/elliot/Arcade/E_Corp ; rm -rf ??')
+os.system('cd /home/elliot/Arcade/E_Corp ; rm -rf ?')
+os.system('touch /home/elliot/Arcade/E_Corp/h3llofr1end')
 #Fin de la habitacion E_CORP
 
 ######################## Fin de la HABITACION E_CORP ########################################################################
