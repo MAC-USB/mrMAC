@@ -160,12 +160,21 @@ then
   fi
 
   # RETO 12
-  ANSWER12="./_OF/_THE/bomB\n./_MR/_MAC/BomB\n./_ROBOT/_ROBOT/boMb"
-  RET12=$(diff <(echo "$RESULT") <(echo -e "$ANSWER12"))
-  if [ "$RET12" = "" ]
-  then
-    echo -e "\nUn shutdown siempre puede causar problemas. Apúrate.\nClave: shutdown\n\t\t\t\t -- MrRobot\n"
-  fi
+  ANSWER12[0]="./_OF/_THE/bomB\n./_MR/_MAC/BomB\n./_ROBOT/_ROBOT/boMb"
+  ANSWEE12[1]="./_OF/_THE/bomB\n./_ROBOT/_ROBOT/boMb\n./_MR/_MAC/BomB"
+  ANSWER12[2]="./_MR/_MAC/BomB\n./_ROBOT/_ROBOT/boMb\n./_OF/_THE/bomB"
+  ANSWER12[3]="./_MR/_MAC/BomB\n./_OF/_THE/bomB\n./_ROBOT/_ROBOT/boMb"
+  ANSWER12[4]="./_ROBOT/_ROBOT/boMb\n./_OF/_THE/bomB\n./_MR/_MAC/BomB"
+  ANSWER12[5]="./_ROBOT/_ROBOT/boMb\n./_MR/_MAC/BomB\n./_OF/_THE/bomB"
+
+  for index in {0..5}
+  do
+ 	RET12=$(diff <(echo "$RESULT") <(echo -e "$i{ANSWER12[index]}"))
+  	if [ "$RET12" = "" ]
+  	then
+    		echo -e "\nUn shutdown siempre puede causar problemas. Apúrate.\nClave: shutdown\n\t\t\t\t -- MrRobot\n"
+  	fi
+  done
 
   # RETO 13
   ANSWER13[0]="ps --ppid 1 | sort -nr"
