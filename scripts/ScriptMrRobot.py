@@ -15,6 +15,7 @@ import sys
 # FORTUNE:
 os.system('cp ../robot/fortunes/* /usr/share/games/fortunes')
 os.system('cp -R ../robot /home/serverfsociety')
+os.system('cp -R ../credits /home/serverfsociety')
 
 #FUNCIONES:
 

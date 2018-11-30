@@ -17,7 +17,7 @@ maxx, maxy = pantalla.getmaxyx()
 curses.curs_set(0)
 
 #Se obtienen los creditos
-credFile = open('/home/serverfsociety/credits.txt')
+credFile = open('/home/serverfsociety/credits/credits.txt')
 lineas = credFile.readlines()
 lineas.reverse()
 credFile.close()
