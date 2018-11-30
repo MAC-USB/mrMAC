@@ -230,7 +230,7 @@ then
   if [ "${COM[0]}" = "" ] && [ "${COM[1]}" = "" ] 
   then
 	echo -e "\nKiddo! 3 más y lo logramos.\nClave: j0anna\n\t\t\t\t\t\t\t-- MrRobot\n" 
-  	rm -rf /home/elliot/Arcade/Dark_Army/_zer0es/fbi4 2> /dev/null
+  	rm -rf /home/elliot/Arcade/Dark_Army/_zer0es
   fi
 
   # RETO 19
