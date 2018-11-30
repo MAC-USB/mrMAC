@@ -267,12 +267,12 @@ then
 fi
 
 # RETO 22
-ANSWER22="> wh1ter0se"
-RET22=$(eval "cat timer_ends | grep wh1ter0se")
+ANSWER22="> 3xploit"
+RET22=$(eval "cat timer_ends | grep 3xploit")
 COM=$(diff <(echo -e $ANSWER22) <(echo $RET22))
 if [ "$COM" = "" ]
 then
-	echo -e "\nTenemos que hablar.\nClave: wh1ter0se\n\t\t\t-- MrRobot\n"
+	echo -e "\nTenemos que hablar.\nClave: 3xploit\n\t\t\t-- MrRobot\n"
 	echo "maricon" > /home/elliot/Arcade/Dark_Army/timer_ends
 fi
 
