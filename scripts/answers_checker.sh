@@ -59,18 +59,18 @@ then
 
   # RETO 2
   # CREA EL ARREGLO DE SOLUCIONES
-  ANSWER2[0]="ls -Rla _ZOR _DAE"
-  ANSWER2[1]="ls -Rla _DAE _ZOR"
-  ANSWER2[2]="ls -Ral _ZOR _DAE"
-  ANSWER2[3]="ls -Ral _DAE _ZOR"
-  ANSWER2[4]="ls -aRl _ZOR _DAE"
-  ANSWER2[5]="ls -aRl _DAE _ZOR"
-  ANSWER2[6]="ls -alR _ZOR _DAE"
-  ANSWER2[7]="ls -alR _DAE _ZOR"
-  ANSWER2[8]="ls -lRa _ZOR _DAE"
-  ANSWER2[9]="ls -lRa _DAE _ZOR"
-  ANSWER2[10]="ls -laR _ZOR _DAE"
-  ANSWER2[11]="ls -laR _DAE _ZOR"
+  ANSWER2[0]="ls -Rla _ZOR/ _DAE/"
+  ANSWER2[1]="ls -Rla _DAE/ _ZOR/"
+  ANSWER2[2]="ls -Ral _ZOR/ _DAE/"
+  ANSWER2[3]="ls -Ral _DAE/ _ZOR/"
+  ANSWER2[4]="ls -aRl _ZOR/ _DAE/"
+  ANSWER2[5]="ls -aRl _DAE/ _ZOR/"
+  ANSWER2[6]="ls -alR _ZOR/ _DAE/"
+  ANSWER2[7]="ls -alR _DAE/ _ZOR/"
+  ANSWER2[8]="ls -lRa _ZOR/ _DAE/"
+  ANSWER2[9]="ls -lRa _DAE/ _ZOR/"
+  ANSWER2[10]="ls -laR _ZOR/ _DAE/"
+  ANSWER2[11]="ls -laR _DAE/ _ZOR/"
 
   # ITERA SOBRE EL ARREGLO PARA BUSCAR SOLUCION
   for index in {0..11}
@@ -91,7 +91,7 @@ then
 
   # RETO 4
   # CREA EL ARREGLO DE SOLUCIONES
-  if [ "$COMMAND" = "cd _ZOR && cd _REA && cd -" ]
+  if [ "$COMMAND" = "cd _ZOR && cd _REA && cd -" ] || [ "$COMMAND" = "cd _ZOR/ && cd _REA/ && cd -" ] || ["$COMMAND" = "cd _ZOR/ && cd _REA && cd -"] || ["$COMMAND" = "cd _ZOR && cd _REA/ && cd -"]
   then
     echo -e "\nLas interfaces graficas son para maricos.\nClave: kde\n\t\t\t\t --MrRobot\n"
   fi
@@ -188,7 +188,7 @@ then
   RET15=$(eval "$COMMAND")
   if [ "$RET15" = "k3rnelp4nic" ]
   then
-    echo -e "\nEsperemos que no hagas ninguna estupidez que genere un kernel panic.\nClave: k3rnelp4nic\n\t\t\t\t\t\t\t\t\t-- MrRobot"
+     echo -e "\nEsperemos que no hagas ninguna estupidez que genere un kernel panic.\nClave para el siguiente reto: k3rnelp4nic (juego)\nEncontraste la fbi_data, dámela.\n\t\t\t\t\t\t\t\t\t-- MrRobot"
   fi
 
   ########################################## DARK ARMY ##########################################
