@@ -1,0 +1,25 @@
+INSTRUCCIONES PARA EJECUTAR CORRECTAMENTE EL SCRIPT:
+
+1) correr los scripts para crear mapa/directorios
+2) crear user serverfsociety con privilegios para modificar directorios ajenos
+3) Tener instalado fortune y mplayer
+4) mover el contenido de la carpeta robot/fortune/ a /usr/share/games/fortunes/
+5) ejecutar el script Robot.sh bajo bash (bash Robot.sh)
+
+NOTAS:
+
+las claves para desbloquear los mundos son:
+
+- femtocell
+    Desbloquea la ruta del FBI
+- fbi_data
+    Desbloquea la ruta de dark_Army
+- wh1ter0se
+    Ejecuta el boss final
+
+(En ese orden debe ser descubiertas las claves)
+
++ Para matar el boss basta con verificar con un manejador de procesos, el proceso cuyo user es serverfsociety y con kill mandarle signal -9 para eliminarlo, posteriormente seguira en ejecucion mplayer con la musica de fondo, simplemete correr killall mplayer para terminarlo
+
+Descomentar las lineas de modificacion de rutas (Se encuentran comentadas hasta que se defina todo el script de crear mapas)
+
