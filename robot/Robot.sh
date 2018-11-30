@@ -158,7 +158,6 @@ function inicio {
         printf "\n\n"
     fi
     done
-
     clear
     cat dibujos/trabajo.txt
     echo "fsociety@pc:\$ Bien muchacho a trabajar, hare los ultimos preparativos " ; sleep 3
@@ -170,8 +169,63 @@ function inicio {
     find /lib ; sleep 2
     printf "\n\n\n"
     read -p "$MENSAJE_READ"
-    clear
+    
 
+    clear
+    cat dibujos/trabajo.txt
+    echo "mr.robot@pc:\$  Te explico:" ; sleep 1
+    echo "mr.robot@pc:\$  Al inicio  (en el TTY7) te encontraras en tu habitacion, ve a las distintas computadoras e interactua con ellas" ; sleep 3.5
+    echo "mr.robot@pc:\$  Cada computadora te mostrara un RETO el cual debes hacer en el TTY2 con el user que te asigne" ; sleep 2.5
+    echo "mr.robot@pc:\$  Despues de cumplir con ellos comenzara la aventura" ; sleep 3.5
+    printf "\n\n\n"
+    read -p "#MENSAJE_READ"
+    clear
+    cat dibujos/trabajo.txt
+    echo "mr.robot@pc:\$  fuera de tu habitacion tendras en la esquina izquierda una barra de % de exito de hackeo" ; sleep 3
+    echo "mr.robot@pc:\$  cada reto que realices correctamente te arrojara una clave la cual debes poner en la misma computadora para validarla " ; sleep 4.5
+    echo "mr.robot@pc:\$  Si la respuesta es correcta, la barra % de exito aumentara TRATA DE HACERLO AL 100%" ; sleep 3
+    echo "mr.robot@pc:\$  Puedes saltar un reto y hacer otro si no sabes como hacer... (QUE VERGUENZA)" ; sleep 1
+    printf "\n\n\n"
+    read -p "#MENSAJE_READ"
+    clear
+    cat dibujos/trabajo.txt
+    echo "mr.robot@pc:\$  Para pasar de una sala a otra debes realizar AJURO el reto aportado por la computadora de la puerta" ; sleep 4
+    echo "mr.robot@pc:\$  No hay presion.. PERO TIENES SOLO 3 HORAS ELLIOT!" ; sleep 2
+    echo "." ; sleep 0.5
+    echo "." ; sleep 0.5
+    echo "." ; sleep 0.5
+    echo "mr.robot@pc:\$  Cuando acabe el tiempo se abriran todas las puertas y deberas ir al final del mapa" ; sleep 3
+    echo "mr.robot@pc:\$  Te estare esperando en la ultima computadora" ; sleep 1
+    echo "mr.robot@pc:\$  Confio en que termines antes....." ; sleep 1
+    echo "mr.robot@pc:\$  ESTAS LISTO?" ; sleep 1
+    printf "\n"
+    while true
+    do
+    read -p "[SI/NO] " respuesta
+    printf "\n"
+
+    #Respuesta vacia = SI
+    if [ -z "${respuesta}" ]; then 
+    respuesta='SI'
+    fi
+
+    if [ $respuesta = "SI" -o $respuesta = "si" ]
+    then
+        printf "S" ; sleep 0.4 ; printf "U" ; sleep 0.4 ; printf "E" ; sleep 0.4 ; printf "R" ; sleep 0.4 ; printf "T" ; sleep 0.4 ; printf "E" ; sleep 0.4 ;
+        printf "\n\n"
+        read -p "$MENSAJE_READ"
+        break
+    elif [ $respuesta = "NO" -o $respuesta = "no" ]
+    then
+        echo "mr.robot@pc:\$ Elliot. Eres una gran marica... no me hagas perder el tiempo.. suerte" ; sleep 2
+        printf "\n\n"
+        read -p "$MENSAJE_READ"
+        break
+    else
+        echo "mr.robot@pc:\$ Asumo que no entendiste mi pregunta.."
+        printf "\n\n"
+    fi
+    done
 }
 
 # Duerme la interaccion para recibir Preguntas
@@ -191,7 +245,7 @@ function dormir {
 		clear
 		cat dibujos/trabajando.txt
 		fortune olvidar
-		printf "\n\n"
+Y		printf "\n\n"
 	    fi
         done
 }
