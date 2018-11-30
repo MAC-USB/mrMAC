@@ -114,9 +114,9 @@ then
   fi
 
   # RETO 7
-  ANSWER7="1009"
-  EV=$(eval $COMMAND)
-  if [ $EV = $ANSWER7 ]
+  #ANSWER7="1009"
+  #EV=$(eval $COMMAND)
+  if [ "$COMMAND" = "ls | wc -l" ]
   then
   	echo -e "\nExcelente, has encontrado la femtocell\nClave para el siguiente reto: d3bug (juego)\nEntregame la femtocell. (terminal)\n"
 	echo -e "\nSigue avanzando Elliot, aun queda camino.\n\t\t\t\t\t-- MrRobot\n"
