@@ -81,7 +81,7 @@ os.system("echo \"alias instakillmrrobot='python /home/invitado/admision/credits
 # os.system('echo ' + welcome_msg +  ' >> /home/elliot/.bashrc')
 # os.system('echo ' + welcome_msg1 +  ' >> /home/elliot/.bashrc')
 # os.system('echo ' + welcome_msg2 +  ' >> /home/elliot/.bashrc')
-os.system('echo "alias kill=\"sudo kill\"\"')
+os.system('echo "alias kill=\"sudo kill\"\" >> /home/elliot/.bashrc')
 os.system('echo DOG=Flipper >> /home/elliot/.bashrc') # Se le asigna la clave a la variable $DOG
 # Comentando para pruebas, usar en el script final
 #os.system('echo "" > /etc/motd')
