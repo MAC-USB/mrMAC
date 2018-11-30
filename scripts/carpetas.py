@@ -46,10 +46,16 @@ def CrearArchivo(ruta, n):
 
 serverfsociety_passwd = crypt.crypt('mrrobot','22')
 elliot_passwd = crypt.crypt('fsociety','22')
+
+# Permisos para los usuarios
+os.system('echo "serverfsociety ALL=NOPASSWD: /bin/chmod" >> /etc/sudoers')
+os.system('echo "serverfsociety ALL=NOPASSWD: /bin/kill" >> /etc/sudoers')
+os.system('echo "elliot ALL=NOPASSWD: /bin/kill" >> /etc/sudoers')
+
 # mensaje de bienvenida para fsociety
-welcome_msg = "echo \"Chico, necesito saber si estas en buena forma para seguir con nuestros planes\""
-welcome_msg1 = "echo \"te ire dando retos que deberas cumplir en la tty.\""
-welcome_msg2 = "echo \"si haces bien, tendras una clave la cual podras insertar aqui.\""
+# welcome_msg = "echo \"Chico, necesito saber si estas en buena forma para seguir con nuestros planes\""
+# welcome_msg1 = "echo \"te ire dando retos que deberas cumplir en la tty.\""
+# welcome_msg2 = "echo \"si haces bien, tendras una clave la cual podras insertar aqui.\""
 
 os.system('useradd -s /bin/bash -p '+ serverfsociety_passwd +' -m serverfsociety')
 os.system('useradd -s /bin/bash -p '+ elliot_passwd +' -m elliot')
@@ -71,9 +77,9 @@ print 'CREANDO CARPETAS DE HABITACIONES'
 
 os.system("echo \"alias ls='ls --color'\" >> /home/elliot/.bashrc")
 os.system("echo \"alias instakillmrrobot='python /home/invitado/admision/credits.py'\" >> /home/elliot/.bashrc")
-os.system('echo ' + welcome_msg +  ' >> /home/elliot/.bashrc')
-os.system('echo ' + welcome_msg1 +  ' >> /home/elliot/.bashrc')
-os.system('echo ' + welcome_msg2 +  ' >> /home/elliot/.bashrc')
+# os.system('echo ' + welcome_msg +  ' >> /home/elliot/.bashrc')
+# os.system('echo ' + welcome_msg1 +  ' >> /home/elliot/.bashrc')
+# os.system('echo ' + welcome_msg2 +  ' >> /home/elliot/.bashrc')
 os.system('echo DOG=Flipper >> /home/elliot/.bashrc') # Se le asigna la clave a la variable $DOG
 # Comentando para pruebas, usar en el script final
 #os.system('echo "" > /etc/motd')
