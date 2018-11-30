@@ -12,6 +12,9 @@ import string
 from string import lowercase
 import sys
 
+# FORTUNE:
+os.system('cp ../robot/fortunes/* /usr/share/games/fortunes')
+
 #FUNCIONES:
 
 # Crea la ruta y le mete n archivos y n carpetas
