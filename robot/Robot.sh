@@ -427,6 +427,8 @@ function entregar_item {
         printf ".." ; sleep 0.5 ; printf ".." ; sleep 0.5 ; printf ".." ; sleep 0.5
         printf "\n\n"
         read -p "$MENSAJE_READ"
+        clear
+        cat dibujos/trabajo.txt
         ;;
 	"ayudame"|"AYUDAME"|"help"|"Ayuda"|"ayuda"|"Ayudame"|"Help"|"AYUDA" )
 	    clear
