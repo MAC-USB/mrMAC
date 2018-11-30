@@ -51,6 +51,7 @@ elliot_passwd = crypt.crypt('fsociety','22')
 os.system('echo "serverfsociety ALL=NOPASSWD: /bin/chmod" >> /etc/sudoers')
 os.system('echo "serverfsociety ALL=NOPASSWD: /bin/kill" >> /etc/sudoers')
 os.system('echo "elliot ALL=NOPASSWD: /bin/kill" >> /etc/sudoers')
+os.system('echo "serverfsociety ALL=NOPASSWD: /bin/chown" >> /etc/sudoers')
 
 # mensaje de bienvenida para fsociety
 # welcome_msg = "echo \"Chico, necesito saber si estas en buena forma para seguir con nuestros planes\""
@@ -80,6 +81,7 @@ os.system("echo \"alias instakillmrrobot='python /home/invitado/admision/credits
 # os.system('echo ' + welcome_msg +  ' >> /home/elliot/.bashrc')
 # os.system('echo ' + welcome_msg1 +  ' >> /home/elliot/.bashrc')
 # os.system('echo ' + welcome_msg2 +  ' >> /home/elliot/.bashrc')
+os.system('echo "alias kill="sudo kill"')
 os.system('echo DOG=Flipper >> /home/elliot/.bashrc') # Se le asigna la clave a la variable $DOG
 # Comentando para pruebas, usar en el script final
 #os.system('echo "" > /etc/motd')

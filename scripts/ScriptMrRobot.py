@@ -108,7 +108,7 @@ os.system('cd /home/elliot/Arcade/E_Corp ; rm -rf ?????*')
 os.system('cd /home/elliot/Arcade/E_Corp ; rm -rf ???')
 os.system('cd /home/elliot/Arcade/E_Corp ; rm -rf ??')
 os.system('cd /home/elliot/Arcade/E_Corp ; rm -rf ?')
-os.system('touch /home/elliot/Arcade/E_Corp/h3llofr1end')
+os.system('touch /home/elliot/Arcade/E_Corp/DDoS_Attack')
 #Fin de la habitacion E_CORP
 
 ######################## Fin de la HABITACION E_CORP ########################################################################
@@ -234,6 +234,8 @@ for i in range(50):
 for i in range (10):
     os.system('touch /home/elliot/Arcade/Dark_Army/_zer0es/' + aux1.pop()[:4])
     os.system('touch /home/elliot/Arcade/Dark_Army/_zer0es/' + aux2.pop()[:6])
+
+os.system('chown elliot:elliot /home/elliot/Arcade/Dark_Army/_zer0es')
 
 os.system('rm -rf /home/elliot/Arcade/Dark_Army/_v1ew')
 os.system('rm -rf /home/elliot/Arcade/Dark_Army/_s0urce')

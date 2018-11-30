@@ -387,7 +387,8 @@ function entregar_item {
 	    clear
 	    # cambiar a 555 en caso de querer que pueda eliminar/mover/modificar archivos en ese mundo
 	    sudo chmod 777 -R /home/elliot/Arcade/Dark_Army
-	    cat dibujos/christian.txt
+	    sudo chown -R elliot:elliot /home/elliot/Arcade/Dark_Army
+            cat dibujos/christian.txt
 	    echo "mr.robot@pc:\$ Bi3n 3lli0t, l0 3stas haciendo" ; sleep 2
 	    echo "mr.robot@pc:\$ MuyYy" ; sleep 1
 	    echo "mr.robot@pc:\$ B13n" ; sleep 1

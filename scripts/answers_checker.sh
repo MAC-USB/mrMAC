@@ -105,6 +105,14 @@ then
     echo -e "\nNecesitas moverte más rápido si quieres lograrlo.\nClave: hellofriend\n\t\t\t\t\t\t-- MrRobot\n"
   fi
 
+  # RETO 6
+  ANSWER6="DDoS_Attack"
+  RET6=$(eval "$COMMAND")
+  if [ "$COMMAND" = "ls !(????)" ] || [ "$RET6" = "$ANSWER6" ]
+  then
+    echo -e "\nLos servidores también pueden llegar a sentirse presionados.\nClave para el siguiente reto: DDoS_Attack\n\t\t\t\t\t\t-- MrRobot\n" 
+  fi
+
   # RETO 7
   ANSWER7="1009"
   EV=$(eval $COMMAND)
@@ -114,8 +122,12 @@ then
 	echo -e "\nSigue avanzando Elliot, aun queda camino.\n\t\t\t\t\t-- MrRobot\n"
   fi
 
-  # RET0 8
-  #if [ ]
+  # RETO 8
+  RET8=$(eval $COMMAND)
+  if [ "$RET8" = "krista" ]
+  then
+  	echo -e "\nHasta los mas grandes necesitamos alguien que nos escuche.\nClave para el siguiente reto: krista\n\t\t\t\t-- MrRobot\n"
+  fi
 
   ###################################### FBI ################################
 
@@ -136,6 +148,15 @@ then
   then
     echo -e "\nBien chico, sigue así.  \nClave: h4ndshake\n\t\t\t\t -- MrRobot\n"
     chmod +x /home/elliot/Arcade/FBI/pwnphone 
+  fi
+
+  # RETO 11
+  RET11=$(ls /home/elliot/Arcade/FBI/_ANONYMOUS)
+  COM=$(diff <(echo "$RET11") <(echo -e "-eas\n-elliot\n-HERO\n-is\n-the"))
+  if [ "$COM" = "" ]
+  then
+  	echo -e "\nPudo haber sido tu suegro.\nClave para el siguiente reto: phillip\n\t\t\t\t--MrRobot\n"
+  	touch /home/elliot/Arcade/FBI/_ANONYMOUS/mamalo
   fi
 
   # RETO 12
@@ -189,19 +210,18 @@ then
   done
 
   # RETO 18
-  ANSWER18[0]="drwxrwxrwx"	
-  ANSWER18[1]="-rwxrwxrwx"
+  ANSWER18[0]="drwx------"	
+  ANSWER18[1]="-rwx------"
   COMAN[0]="ls -l | grep _zer0es | cut -d ' ' -f 1"
-  COMAN[1]="ls -l _zer0es | grep hackeo24 | cut -d ' ' -f 1"
+  COMAN[1]="ls -l _zer0es | grep fbi4 | cut -d ' ' -f 1"
   RES[0]=$(eval ${COMAN[0]})
   RES[1]=$(eval ${COMAN[1]})
   COM[0]=$(diff <(echo "${RES[0]}") <(echo "${ANSWER18[0]}"))
   COM[1]=$(diff <(echo "${RES[1]}") <(echo "${ANSWER18[1]}"))
-
   if [ "${COM[0]}" = "" ] && [ "${COM[1]}" = "" ] 
   then
 	echo -e "\nKiddo! 3 más y lo logramos.\nClave: j0anna\n\t\t\t\t\t\t\t-- MrRobot\n" 
-  	chmod g=r /home/elliot/Arcade/Dark_Army/_zer0es
+  	rm -rf /home/elliot/Arcade/Dark_Army/_zer0es/fbi4 2> /dev/null
   fi
 
   # RETO 19
@@ -238,13 +258,13 @@ then
 fi
 
 # RETO 22
-ANSWER22="1965a1966\n> wh1ter0se"
-RET22=$(eval $COMMAND)
-COM=$(diff <(echo -e "$ANSWER22") <(echo "$RET22"))
-
+ANSWER22="> wh1ter0se"
+RET22=$(eval "cat timer_ends | grep wh1ter0se")
+COM=$(diff <(echo -e $ANSWER22) <(echo $RET22))
 if [ "$COM" = "" ]
 then
 	echo -e "\nTenemos que hablar.\nClave: wh1ter0se\n\t\t\t-- MrRobot\n"
+	echo "maricon" > /home/elliot/Arcade/Dark_Army/timer_ends
 fi
 
 else
