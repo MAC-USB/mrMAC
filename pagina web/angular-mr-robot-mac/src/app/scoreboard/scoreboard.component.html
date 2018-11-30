@@ -1,5 +1,5 @@
 <div class="header text-center center-block">
-  <p id="welcome" class="titlemrrobot">MR.MAC</p>
+  <p id="welcome" class="titlemrrobot">TAREA 3. SEP-DIC 2018 <br>MR.MAC</p>
   <img src="http://vignette3.wikia.nocookie.net/mrrobot/images/5/50/Wiki-background/revision/20150906132244">
 </div>
 <div class="intro">
@@ -23,18 +23,21 @@
   </div>
 </div>
 
-<div class="header text-center center-block">
+<div class="header text-center">
   <p id="welcome" class="titlemrrobot">TABLA DE PUNTUACION</p>
-  <div class="text-center">
-    <p id="text3" *ngIf="(ganadores.length) == 1"><span>fsociety</span>: El ganador hasta ahora es <strong>{{equipos[0].nombre}}</strong></p>
-    <div id="text3" *ngIf="(ganadores.length) > 1">
-      <span>fsociety</span>: Parece que tenemos un empate.<br>
-      <span>fsociety</span>: Los ganadores son:<br>
-      <div *ngFor="let ganador of ganadores">
-        <span>fsociety</span>: <strong>{{ganador.nombre}}</strong>
-      </div>
+  <p id="text3" *ngIf="(ganadores.length) == 1 && equipos[0].porcentaje < 100" style="display:inline-block; text-align: left;"><span>fsociety@sala-a</span>:~ El ganador hasta ahora es <strong>{{equipos[0].nombre}}.</strong></p>
+  <p id="text3" *ngIf="(ganadores.length) == 1 && equipos[0].porcentaje == 100" style="display:inline-block; text-align: left;"><span>fsociety@sala-a</span>:~ El ganador es <strong>{{equipos[0].nombre}}.</strong></p>
+  <div id="text3" *ngIf="(ganadores.length) > 1" style="display:inline-block; text-align: left;">
+    <p *ngIf="equipos[0].porcentaje < 100"><span>fsociety@sala-a</span>:~ Parece que tenemos un empate.<br></p>
+    <p *ngIf="equipos[0].porcentaje < 100"><span>fsociety@sala-a</span>:~ Los ganadores hasta ahora son:<br></p>
+    <p *ngIf="equipos[0].porcentaje == 100"><span>fsociety@sala-a</span>:~ Los ganadores son:<br></p>
+    <div *ngFor="let ganador of ganadores">
+      <p><span>fsociety@sala-a</span>:~ <strong>{{ganador.nombre}}.</strong></p>
     </div>
   </div>
+  <br>
+  <br>
+  <br>
   <table align="center" style="width:80%;">
       <tr>
         <th style="width:30%;">Equipo</th>
