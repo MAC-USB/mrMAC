@@ -262,7 +262,7 @@ os.system('touch /home/elliot/Arcade/Dark_Army/tanya')
 
 words_from_masks = respaldo_wfms
 for w in words_from_masks:
-    	os.system('echo '+ w + '>> /home/elliot/Arcade/Dark_Army/frederic')
+    	os.system('echo '+ w + '>> /home/elliot/Arcade/Dark_Army/frederick')
 
 palabra_distinta= 'wh1ter0se'
 aux = words_from_masks + [palabra_distinta]
